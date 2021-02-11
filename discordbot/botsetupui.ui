@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>botsetupui</class>
+ <widget class="QMainWindow" name="botsetupui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>782</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bot Setup</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="botsFileLabel">
+      <property name="text">
+       <string>Bots File:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="botsFileEdit"/>
+    </item>
+    <item>
+     <widget class="QToolButton" name="botsFileBrowse">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="botNameLabel">
+      <property name="text">
+       <string>Bot Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="botNameEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="botKeyLabel">
+      <property name="text">
+       <string>Bot Key:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="botKeyEdit"/>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="tts">
+      <property name="text">
+       <string>TTS (Text To Speech)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="botAddButton">
+      <property name="text">
+       <string>Add/Update</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="botRemoveButton">
+      <property name="text">
+       <string>Remove Selected</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTreeWidget" name="bots">
+      <property name="indentation">
+       <number>0</number>
+      </property>
+      <attribute name="headerMinimumSectionSize">
+       <number>200</number>
+      </attribute>
+      <attribute name="headerDefaultSectionSize">
+       <number>200</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Bot Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Bot Key</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TTS</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

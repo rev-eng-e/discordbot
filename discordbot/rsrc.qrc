@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/discordbot">
+        <file>discordicon.png</file>
+    </qresource>
+</RCC>
